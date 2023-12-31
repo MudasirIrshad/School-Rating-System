@@ -1,7 +1,9 @@
 import Footer from "../Footer.jsx";
 import TeamIndividual from "./TeamIndividual";
 import 'animate.css';
-
+import Mudasir from '../Our Team/mudasir.jpg'
+import Ibrahim from '../Our Team/ibrahim.jpg'
+import Haris from '../Our Team/haris.jpg'
 
 export default function OurTeam() {
   return (
@@ -11,17 +13,17 @@ export default function OurTeam() {
   
   <h1 className="text-white p-2">Our Team</h1>
       <div className="inner">
-      <TeamIndividual img="src\Components\Our Team\mudasir.jpg" 
+      <TeamIndividual img= {Mudasir}
       name="Mudasir Irshad" 
       designation="Software Developer"
       intro="
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sunt culpa temporibus perferendis molestiae."/>
-      <TeamIndividual img="src\Components\Our Team\haris.jpg" 
+      <TeamIndividual img={Haris}
       name="Haris Mughal" 
       designation="Software Developer"
       intro="
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sunt culpa temporibus perferendis molestiae."/>
-      <TeamIndividual img="\src\Components\Our Team\ibrahim.jpg" alt="Img"
+      <TeamIndividual img={Ibrahim} alt="Img"
       name="Ibrahim Shah" 
       designation="Software Developer"
       intro="
