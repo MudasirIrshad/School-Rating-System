@@ -1,6 +1,5 @@
 import School from './School'
 import Footer from '../Footer'
-import './Schoollist'
 
 export default function SchoolList() {
   return (
