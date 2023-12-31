@@ -33,17 +33,17 @@ export default function Home() {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Schools name="Pakturk International School"
+          <Schools name="Fauji Foundation Model School"
           description="Provide best quality education to every one"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Schools name="Pakturk International School"
-          description="Provide best quality education to every one"
+          <Schools name="ST Francis School"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, natus totam. Suscipit nemo iure ad fuga quo! Cupiditate voluptas beatae placeat nam officia blanditiis esse."
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Schools name="Pakturk International School"
+          <Schools name="Islamia Model High School"
           description="Provide best quality education to every one"
           />
         </SwiperSlide>
